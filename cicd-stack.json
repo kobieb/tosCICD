@@ -64,7 +64,7 @@
       ],
       "ConstraintDescription": "must be a valid EC2 instance type."
     },
-  },
+	},
   "Mappings": {
     "Region2Examples": {
       "us-east-1": {
