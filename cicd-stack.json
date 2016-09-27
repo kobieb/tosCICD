@@ -740,7 +740,7 @@
         },
         "Tags": [
           {
-            "Key": "Dev",
+            "Key": "DEV",
             "Value": {
               "Ref": "AWS::StackId"
             }
