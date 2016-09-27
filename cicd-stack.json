@@ -334,7 +334,7 @@
                           { "Fn::FindInMap" : [ "AWSInstanceType2Arch", { "Ref" : "InstanceType" }, "Arch" ] } ] },
         "InstanceType" : { "Ref" : "InstanceType" },
         "KeyName" : { "Ref" : "KeyName" },
-        "Tags" : [ {"Key" : "DEV" }, {"Key" : "Owner", "Value" : "Cloud_Team" }, {"Key" : "Name", "Value" : "Tufinovate" } ],
+        "Tags" : [ {"Key" : "DEV", "Value" : "Dev" }, {"Key" : "Owner", "Value" : "Cloud_Team" }, {"Key" : "Name", "Value" : "Tufinovate" } ],
         "NetworkInterfaces" : [{
           "GroupSet"                 : [{ "Ref" : "InstanceSecurityGroup" }],
           "AssociatePublicIpAddress" : "true",
