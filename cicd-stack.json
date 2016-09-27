@@ -3,6 +3,7 @@
 
   "Description" : "Violation Check For CloudFormation Templates Using Jenkins",
 
+  
   "Parameters" : {
 
     "InstanceType" : {
