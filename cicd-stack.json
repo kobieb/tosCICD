@@ -740,10 +740,20 @@
         },
         "Tags": [
           {
-            "Key": "Application",
+            "Key": "Dev",
             "Value": {
               "Ref": "AWS::StackId"
             }
+          },
+		            {
+            "Key": "Owner",
+            "Value": {
+              "Ref": "AWS::StackId"
+            }
+          },
+		            {
+            "Key": "Name",
+            "Value": "Test"
           }
         ],
         "NetworkInterfaces": [
